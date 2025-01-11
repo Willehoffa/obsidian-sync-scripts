@@ -1,9 +1,9 @@
 # ObsidianGitSync.ps1
 # Configuration 
 
-$vaultPath = "C:\Users\jwille\iCloudDrive\iCloud~md~obsidian\Thunderdome Vault"
+$vaultPath = #"Path_To_Vault"
 $commitMessage = "Auto-sync: $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')"
-$logFile = "C:\Users\jwille\iCloudDrive\obsidian-sync.log"
+$logFile = #"Path_To_Log\obsidian-sync.log"
 
 # Funtion to write to log file 
 function Write-Tolog {
